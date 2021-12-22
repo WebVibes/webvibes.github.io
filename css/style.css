@@ -1,0 +1,1862 @@
+@media screen and (min-width: 1280px) {
+  html {
+    font-size: 1.15vw;
+  }
+}
+@media screen and (max-width: 1279px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  color: #333;
+  background: #fff;
+}
+p {
+  margin-bottom: 0.7rem;
+  line-height: 1.5;
+  font-size: 18px;
+}
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+h1,
+h2 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.6rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+.mi {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+.button {
+  border: 1px solid #f96755;
+  background: linear-gradient(to right, #f95283, #ff3527);
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin: 0;
+  padding: 0.6rem 1.2rem;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.button:hover {
+  border: 1px solid #f96755;
+  background: white;
+  color: #f96755;
+}
+section {
+  margin-bottom: 4vw;
+}
+#hero-contact {
+  padding: 5vw 0;
+  position: relative;
+  background: linear-gradient(to right, #b2a6c9, #e89e4a);
+}
+#hero {
+  background-size: auto 50%;
+  padding: 10vw 0;
+  position: relative;
+  background: linear-gradient(to right, #b2a6c9, #e89e4a);
+}
+#hero2 {
+  background-size: auto 50%;
+  padding: 11.2vw 0;
+  position: relative;
+  background: linear-gradient(to right, #b2a6c9, #e89e4a);
+}
+#hero3 {
+  background-size: auto 50%;
+  padding: 12.5vw 0;
+  position: relative;
+  background: linear-gradient(to right, #b2a6c9, #e89e4a);
+}
+#hero4 {
+  background-size: auto 50%;
+  padding: 13vw 0;
+  position: relative;
+  background: linear-gradient(to right, #b2a6c9, #e89e4a);
+}
+
+.laptop {
+  position: absolute;
+  bottom: 0;
+  right: 5%;
+  width: auto;
+  height: 85%;
+  z-index: 1;
+}
+.contactimg {
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  width: auto;
+  height: 100%;
+  z-index: 1;
+}
+.logolatvany {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: auto;
+  height: 85%;
+  z-index: 1;
+}
+.pizzalatvany {
+  position: absolute;
+  bottom: 5%;
+  right: 0;
+  width: auto;
+  height: 85%;
+  z-index: 1;
+}
+.webkep {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  width: auto;
+  height: 85%;
+}
+.hullam-contact {
+  position: absolute;
+  opacity: 15%;
+  bottom: -6rem;
+  width: 32rem;
+}
+.kor-contact {
+  position: absolute;
+  opacity: 15%;
+  bottom: 1rem;
+  right: 3%;
+  width: 18rem;
+}
+.hullam-contact2 {
+  position: absolute;
+  opacity: 15%;
+  bottom: -12rem;
+  width: 32rem;
+}
+.kor-contact2 {
+  position: absolute;
+  opacity: 15%;
+  bottom: 1rem;
+  right: 3%;
+  width: 18rem;
+}
+.hullam {
+  position: absolute;
+  opacity: 15%;
+  bottom: 2rem;
+  width: 40rem;
+}
+.kor {
+  position: absolute;
+  opacity: 15%;
+  bottom: 12rem;
+  right: 3%;
+  width: 20rem;
+}
+.hullamarculat {
+  position: absolute;
+  opacity: 15%;
+  bottom: -1rem;
+  width: 40rem;
+}
+.hullamdesign {
+  position: absolute;
+  opacity: 15%;
+  bottom: -3rem;
+  width: 40rem;
+}
+.korarculat {
+  position: absolute;
+  opacity: 15%;
+  bottom: 11rem;
+  right: 3%;
+  width: 20rem;
+}
+.kordesign {
+  position: absolute;
+  opacity: 15%;
+  bottom: 11rem;
+  right: 3%;
+  width: 20rem;
+}
+.kereso {
+  position: absolute;
+  bottom: 22rem;
+  right: 35%;
+  width: 5rem;
+}
+.kosar {
+  position: absolute;
+  bottom: 27rem;
+  right: 10%;
+  width: 5rem;
+}
+
+.hero-text {
+  padding-bottom: 1.5rem;
+  max-width: 30rem;
+  color: white;
+  z-index: 3;
+}
+
+.hero-text p {
+  font-size: 22px;
+}
+
+#services h2 {
+  text-align: center;
+}
+
+.box {
+  align-items: left;
+  background: #fff;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 1.5rem;
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.box-text h3 {
+  padding-bottom: 1rem;
+}
+
+.box-button-container {
+  margin-top: auto;
+}
+
+#portfolio h2 {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+#portfolio2 h2 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+#portfolio img {
+  margin-bottom: 1rem;
+}
+#services img {
+  height: 6rem;
+  background-color: #b2a6c9;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  align-items: left;
+  margin-bottom: 1rem;
+}
+#how-we-work ul,
+#how-we-work2 ul,
+#how-we-workcontact ul {
+  overflow: hidden;
+  margin: 0 0 20px 0;
+}
+
+#how-we-work ul li,
+#how-we-work2 ul li,
+#how-we-workcontact li {
+  margin-bottom: 8px;
+  line-height: 1.4;
+  position: relative;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+#how-we-work ul li:before,
+#how-we-workcontact ul li:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  display: block;
+  border-radius: 50%;
+  background: #f96755;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -10px;
+}
+#how-we-work ul li:after,
+#how-we-workcontact ul li:after {
+  content: "";
+  width: 8px;
+  height: 12px;
+  display: block;
+  position: absolute;
+  left: 6px;
+  top: 50%;
+  margin-top: -8px;
+  border-bottom: solid 2px white;
+  border-right: solid 2px white;
+  transform: rotate(45deg);
+}
+#kapcsolat {
+  padding-top: 0;
+}
+#how-we-work2 h2 {
+  padding-bottom: 1rem;
+}
+.text {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: #f6f6f6;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: calc(33.33333333% - 2rem);
+}
+
+.footer-container h5 {
+  margin-bottom: 10px;
+}
+.footer-container a {
+  padding: 4px;
+  font-size: smaller;
+  color: #333;
+  font-size: 18px;
+}
+
+.footer-logo {
+  max-height: 150px;
+  padding: 20px;
+}
+
+.email,
+.mobile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-container {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+#copyright {
+  padding: 1rem 0;
+  font-size: smaller;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-bottom: 0.4rem;
+  height: auto;
+}
+.content-box {
+  max-width: 1140px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.content-box-wide {
+  max-width: 1800px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-box-full {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#how-we-work,
+#how-we-work2,
+.laptop,
+.logolatvany,
+.pizzalatvany,
+.webkep,
+#services,
+#portfolio {
+  padding-bottom: 3rem;
+}
+#hero p,
+#hero2 p,
+#hero3 p,
+#hero4 p,
+#about p,
+#how-we-work2 p {
+  padding-bottom: 1rem;
+}
+
+#how-we-work2 h2,
+#about h2 {
+  padding-bottom: 0;
+}
+
+#how-we-work2 img,
+#about img {
+  width: 90%;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.contact-box {
+  max-width: 850px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.field {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(230, 230, 230, 0.6);
+  font-size: 0.9rem;
+  color: #828282;
+  margin-bottom: 22px;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.field:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.field:focus {
+  background-color: #fff;
+  border: 1px solid gray;
+}
+.area {
+  min-height: 150px;
+}
+.input_field .check {
+  width: 15px;
+  height: 15px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+.input_field .check input[type="checkbox"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.input_field {
+  display: flex;
+}
+.input_field .check .checkmark {
+  width: 20px;
+  height: 20px;
+  border: 1px solid grey;
+  display: block;
+  position: relative;
+  border-radius: 5px;
+}
+.input_field .check .checkmark:before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  width: 10px;
+  height: 7px;
+  border: 2px solid;
+  border-color: transparent transparent #fff #fff;
+  transform: rotate(-45deg);
+  display: none;
+}
+.input_field .check input[type="checkbox"]:checked ~ .checkmark {
+  background: #f96755;
+}
+.input_field .check input[type="checkbox"]:checked ~ .checkmark:before {
+  display: block;
+}
+.input_field p {
+  margin-left: 1rem;
+}
+.hotel {
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 5rem;
+}
+.munkaink,
+.munkaink1 {
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 2rem;
+}
+header {
+  padding-bottom: 1rem;
+}
+
+.logo {
+  z-index: 3;
+}
+
+#webshop h1 {
+  padding-top: 5rem;
+}
+.hullamweb {
+  position: absolute;
+  opacity: 15%;
+  bottom: -4rem;
+  width: 40rem;
+}
+.korweb {
+  position: absolute;
+  opacity: 15%;
+  bottom: 9rem;
+  right: 3%;
+  width: 20rem;
+}
+
+.offershop {
+  width: 90%;
+}
+@media screen and (max-width: 1280px) {
+  .hotel,
+  .munkaink1 {
+    margin-top: 4rem;
+  }
+  .contactimg {
+    position: absolute;
+    bottom: 5%;
+    right: 9%;
+    width: auto;
+    height: 90%;
+    z-index: 1;
+  }
+  .hullam-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 8rem;
+    width: 25rem;
+  }
+  .kor-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 9%;
+    width: 14rem;
+  }
+
+  .hullamarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: -5rem;
+    width: 40rem;
+  }
+  .hullamdesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: -8rem;
+    width: 40rem;
+  }
+  .korarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 6rem;
+    right: 3%;
+    width: 20rem;
+  }
+  .kordesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 6rem;
+    right: 3%;
+    width: 20rem;
+  }
+  .kereso {
+    position: absolute;
+    bottom: 20rem;
+    right: 35%;
+    width: 6rem;
+  }
+  .kosar {
+    position: absolute;
+    bottom: 25rem;
+    right: 10%;
+    width: 5rem;
+  }
+
+  header {
+    padding-bottom: 1rem;
+  }
+
+  .shop {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  #kapcsolat {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
+  .logoarculat,
+  .mi,
+  .offershop {
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .content-box {
+    width: 80%;
+  }
+  .laptop {
+    position: absolute;
+    height: auto;
+    width: 35rem;
+    padding-bottom: 3rem;
+    right: 0;
+  }
+  .logolatvany {
+    position: absolute;
+    height: auto;
+    width: 30rem;
+    padding-bottom: 3rem;
+  }
+  .pizzalatvany {
+    position: absolute;
+    height: auto;
+    width: 32rem;
+    bottom: 5%;
+  }
+  .webkep {
+    position: absolute;
+    height: auto;
+    width: 32rem;
+    bottom: 5%;
+    right: 0;
+  }
+
+  .hullam {
+    position: absolute;
+    opacity: 15%;
+    bottom: 2rem;
+    width: 35rem;
+  }
+  .kor {
+    position: absolute;
+    opacity: 15%;
+    bottom: 12rem;
+    right: 3%;
+    width: 20rem;
+  }
+  .hullamweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: -4rem;
+    width: 40rem;
+  }
+  .korweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 9rem;
+    right: 3%;
+    width: 20rem;
+  }
+
+  #how-we-work2,
+  #about,
+  #how-we-work,
+  #how-we-workcontact,
+  #services {
+    padding-bottom: 2rem;
+  }
+  #hero-contact {
+    padding: 9vw 0;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .contactimg {
+    position: absolute;
+    bottom: 11%;
+    right: 9%;
+    width: auto;
+    height: 80%;
+    z-index: 1;
+  }
+  .hullam-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 3rem;
+    width: 30rem;
+  }
+  .kor-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 16rem;
+  }
+  .hullam-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: -3rem;
+    width: 25rem;
+  }
+  .kor-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 15rem;
+  }
+  .hullamdesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 2rem;
+    width: 30rem;
+  }
+  .kordesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 9rem;
+    right: 3%;
+    width: 15rem;
+  }
+  .hullamarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 3rem;
+    width: 30rem;
+  }
+  .korarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 9rem;
+    right: 3%;
+    width: 15rem;
+  }
+  .kereso {
+    position: absolute;
+    bottom: 20rem;
+    right: 35%;
+    width: 4rem;
+  }
+  .kosar {
+    position: absolute;
+    bottom: 25rem;
+    right: 10%;
+    width: 4rem;
+  }
+  header {
+    padding-bottom: 1rem;
+  }
+
+  header .content-box {
+    flex-wrap: wrap;
+  }
+
+  #main-menu {
+    order: 3;
+    width: 100%;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: solid 1px #ccc;
+    text-align: center;
+  }
+
+  .hero-text-design-webshop {
+    max-width: 25rem;
+  }
+
+  .laptop {
+    position: absolute;
+    height: auto;
+    width: 35rem;
+    padding-bottom: 3rem;
+    right: 0;
+  }
+  .logolatvany {
+    position: absolute;
+    height: auto;
+    width: 28rem;
+    right: 0;
+  }
+  .pizzalatvany {
+    position: absolute;
+    height: auto;
+    width: 30rem;
+    bottom: 20%;
+    right: 0;
+  }
+  .webkep {
+    position: absolute;
+    height: auto;
+    width: 30rem;
+    bottom: 5%;
+    right: 0;
+  }
+
+  .hullam {
+    position: absolute;
+    opacity: 15%;
+    bottom: 2rem;
+    width: 30rem;
+    bottom: 8rem;
+  }
+  .kor {
+    position: absolute;
+    opacity: 15%;
+    bottom: 12rem;
+    right: 3%;
+    width: 17rem;
+  }
+
+  footer .content-box {
+    display: block;
+    text-align: center;
+  }
+  #foot-info {
+    margin-bottom: 1rem;
+  }
+  .column-3 > div,
+  .column-4 > div {
+    width: calc(50% - 2rem);
+  }
+
+  #portfolio img,
+  #portfolio2 img {
+    width: 100%;
+  }
+  #portfolio h3,
+  #portfolio2 h3 {
+    font-size: 1.3rem;
+  }
+  #kapcsolat {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .logoarculat {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+  }
+  .mi {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+  }
+  .shop {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  #how-we-work,
+  #how-we-work2,
+  #about,
+  #services {
+    padding-bottom: 2rem;
+  }
+  #portfolio,
+  #portfolio2 {
+    padding-bottom: 0;
+  }
+
+  .button {
+    padding: 0.8rem 1.6rem;
+  }
+  .hullamweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 2rem;
+    width: 30rem;
+  }
+  .korweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 5rem;
+    right: 3%;
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 1073px) {
+  .contactimg {
+    position: absolute;
+    bottom: 11%;
+    right: 9%;
+    width: auto;
+    height: 80%;
+    z-index: 1;
+  }
+  .hullam-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 8rem;
+    width: 25rem;
+  }
+  .kor-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 9%;
+    width: 14rem;
+  }
+  .hullamdesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 2rem;
+    width: 30rem;
+  }
+  .kordesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 9rem;
+    right: 3%;
+    width: 15rem;
+  }
+  .hullamarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 3rem;
+    width: 30rem;
+  }
+  .korarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 9rem;
+    right: 3%;
+    width: 15rem;
+  }
+  .hullam {
+    position: absolute;
+    opacity: 15%;
+    bottom: 2rem;
+    width: 30rem;
+    bottom: 8rem;
+  }
+  .kor {
+    position: absolute;
+    opacity: 15%;
+    bottom: 12rem;
+    right: 3%;
+    width: 17rem;
+  }
+  .laptop {
+    height: auto;
+    width: 32rem;
+    padding-bottom: 3rem;
+  }
+  .logolatvany {
+    height: auto;
+    width: 28rem;
+  }
+  .pizzalatvany {
+    height: auto;
+    width: 28rem;
+  }
+  .webkep {
+    height: auto;
+    width: 28rem;
+  }
+
+  p {
+    max-width: 80%;
+  }
+
+  header {
+    padding-bottom: 1rem;
+  }
+
+  .shop {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 990px) {
+  #about {
+    padding-top: 3rem;
+  }
+  .contactimg {
+    position: absolute;
+    bottom: -13rem;
+    right: 18rem;
+    width: auto;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .hullam-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 3rem;
+    width: 25rem;
+  }
+  .kor-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 14rem;
+  }
+  .hullam-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: -4rem;
+    width: 21rem;
+  }
+  .kor-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 13rem;
+  }
+  .offershop {
+    padding-top: 3rem;
+  }
+  .hullamweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 6rem;
+    width: 30rem;
+  }
+  .korweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 5rem;
+    right: 3%;
+    width: 15rem;
+  }
+  .hullamdesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 7rem;
+    width: 30rem;
+  }
+  .kordesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 5rem;
+    right: 3%;
+    width: 12rem;
+  }
+  .hullamarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 6rem;
+    width: 29rem;
+  }
+  .korarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 7rem;
+    right: 3%;
+    width: 13rem;
+  }
+  .kereso {
+    position: absolute;
+    bottom: 13rem;
+    right: 62%;
+    width: 4rem;
+  }
+  .kosar {
+    position: absolute;
+    bottom: 18rem;
+    right: 29%;
+    width: 4rem;
+  }
+  .hullam {
+    position: absolute;
+    opacity: 15%;
+
+    width: 30rem;
+    bottom: 12rem;
+  }
+  .kor {
+    position: absolute;
+    opacity: 15%;
+    bottom: 10rem;
+    right: 3%;
+    width: 14rem;
+  }
+  #webshop p {
+    padding-bottom: 4rem;
+  }
+  #webshop img {
+    position: absolute;
+    bottom: -0%;
+    right: 20%;
+    width: auto;
+    height: 80%;
+
+    background-size: 90%;
+    display: flex;
+    padding-bottom: 2rem;
+  }
+  p {
+    max-width: 100%;
+  }
+
+  .mi {
+    padding-top: 2rem;
+  }
+  .laptop {
+    height: auto;
+    width: 27rem;
+    right: 50%;
+    margin-right: -13rem;
+    bottom: -2rem;
+  }
+  .logolatvany {
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: 1rem;
+    right: 50%;
+    margin-right: -13rem;
+  }
+  .pizzalatvany {
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: 1rem;
+    right: 50%;
+    margin-right: -13rem;
+  }
+  .webkep {
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: 1rem;
+    right: 50%;
+    margin-right: -13rem;
+  }
+  .footer .content-box-wide {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .footer-container {
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+
+  .hero-text {
+    padding-bottom: 0;
+  }
+  header {
+    padding-bottom: 1rem;
+  }
+  #kapcsolat {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  #hero,
+  #hero2,
+  #hero3,
+  #hero4 {
+    padding: 2rem 0 20rem 0;
+  }
+  .hero-text {
+    max-width: 80%;
+  }
+
+  #foot-info li,
+  #foot-contact li {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  #portfolio,
+  #portfolio2,
+  #how-we-work,
+  #how-we-work2,
+  #about,
+  .laptop,
+  #services {
+    padding-bottom: 2rem;
+  }
+  .text {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .textcontact {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  #services h3 {
+    padding-top: 1rem;
+  }
+  #services .button {
+    margin-top: 1rem;
+  }
+  #portfolio h2,
+  #portfolio2 h2 {
+    text-align: center;
+  }
+  #services h2 {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  .button {
+    padding: 0.8rem 1.6rem;
+  }
+  #services p {
+    padding-bottom: 0;
+  }
+  .col-1-2 {
+    width: calc(100% - 2rem);
+  }
+  .field {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+  .how-we-work-reverse {
+    flex-direction: column-reverse;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hullam-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 5rem;
+    width: 21rem;
+  }
+  .kor-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 12rem;
+  }
+  .hullamweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 8rem;
+    width: 30rem;
+  }
+  .korweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 4rem;
+    right: 3%;
+    width: 12rem;
+  }
+  .hullamdesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 14rem;
+    width: 25rem;
+  }
+  .kordesign {
+    position: absolute;
+    opacity: 15%;
+    bottom: 5rem;
+    right: 3%;
+    width: 12rem;
+  }
+  .hullamarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 9rem;
+    width: 29rem;
+  }
+  .korarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 5rem;
+    right: 3%;
+    width: 13rem;
+  }
+  .kereso {
+    position: absolute;
+    bottom: 13rem;
+    right: 62%;
+    width: 4rem;
+  }
+  .kosar {
+    position: absolute;
+    bottom: 17rem;
+    right: 29%;
+    width: 4rem;
+  }
+  .logoarculat {
+    padding-top: 0;
+  }
+  .logolatvany {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: -1rem;
+  }
+  .webkep {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: -1rem;
+  }
+  #hero4 p {
+    padding-bottom: 3rem;
+  }
+  #hero2 p {
+    padding-bottom: 3rem;
+  }
+  .pizzalatvany {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: -1rem;
+  }
+  .hero-text {
+    padding-bottom: 0;
+  }
+  header {
+    padding-bottom: 1rem;
+  }
+  #hero,
+  #hero2,
+  #hero3,
+  #hero4 {
+    padding: 2rem 0 20rem 0;
+  }
+  .hero-text {
+    max-width: initial;
+  }
+  .column-4 > div {
+    width: calc(100% - 2rem);
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.3rem;
+  }
+
+  .laptop {
+    right: 50%;
+    bottom: -2rem;
+    height: auto;
+    width: 27rem;
+    background: radial-gradient(350px, #f08f538c, transparent 50%);
+  }
+  .column-3 > div {
+    width: calc(100% - 2rem);
+  }
+  #portfolio h3,
+  #portfolio2 h3 {
+    font-size: 1.2rem;
+  }
+
+  #how-we-work,
+  .laptop,
+  .logolatvany,
+  .pizzalatvany,
+  .webkep,
+  #services {
+    padding-bottom: 3rem;
+  }
+  .text {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  #services h3 {
+    padding-top: 1rem;
+  }
+  #services .button {
+    margin-top: 1rem;
+  }
+  #portfolio h2,
+  #portfolio2 h2 {
+    text-align: center;
+  }
+
+  #how-we-work2,
+  #about {
+    padding-top: 2rem;
+  }
+
+  .contact-box {
+    padding-bottom: 3rem;
+  }
+  .field {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+  .button {
+    padding: 0.8rem 1.6rem;
+  }
+  #services p {
+    padding-bottom: 0;
+  }
+  #portfolio img,
+  #portfolio2 img {
+    width: 100%;
+  }
+  #kapcsolat {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  .hullam-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: -6rem;
+    width: 21rem;
+  }
+  .kor-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 13rem;
+  }
+}
+@media screen and (max-width: 647px) {
+  .hullam-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: -5rem;
+    width: 18rem;
+  }
+  .kor-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 8rem;
+  }
+  .hullam-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 11rem;
+    width: 18rem;
+  }
+  .kor-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 10rem;
+  }
+  .hullamweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 10rem;
+    width: 30rem;
+  }
+  .korweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 4rem;
+    right: 3%;
+    width: 12rem;
+  }
+  .hullamarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 15rem;
+    width: 29rem;
+  }
+  .korarculat {
+    position: absolute;
+    opacity: 15%;
+    bottom: 5rem;
+    right: 3%;
+    width: 13rem;
+  }
+  .kereso {
+    position: absolute;
+    bottom: 12rem;
+    right: 63%;
+    width: 3rem;
+  }
+  .kosar {
+    position: absolute;
+    bottom: 17rem;
+    right: 29%;
+    width: 3rem;
+  }
+  .laptop {
+    right: 50%;
+    bottom: -3rem;
+    height: auto;
+    width: 27rem;
+    background: radial-gradient(350px, #f08f538c, transparent 50%);
+  }
+  .hullam {
+    position: absolute;
+    opacity: 15%;
+
+    width: 24rem;
+    bottom: 20rem;
+  }
+  .kor {
+    position: absolute;
+    opacity: 15%;
+    bottom: 10rem;
+    right: 3%;
+    width: 14rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  .hullam-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: -2rem;
+    width: 14rem;
+  }
+  .kor-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 7rem;
+  }
+  .hullam-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 5rem;
+    width: 15rem;
+  }
+  .kor-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 10rem;
+  }
+  .hullamweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 13rem;
+    width: 30rem;
+  }
+  .korweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 4rem;
+    right: 3%;
+    width: 12rem;
+  }
+  .kereso {
+    position: absolute;
+    bottom: 12rem;
+    right: 62%;
+    width: 3rem;
+  }
+  .kosar {
+    position: absolute;
+    bottom: 17rem;
+    right: 29%;
+    width: 3rem;
+  }
+  .logolatvany {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: 3rem;
+  }
+  .pizzalatvany {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: 3rem;
+  }
+  .webkep {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 2rem;
+    padding-bottom: 0;
+    bottom: 1rem;
+  }
+  .hero-text {
+    padding-bottom: 0;
+  }
+  header {
+    padding-bottom: 1rem;
+  }
+  #tel {
+    margin: 0 auto;
+  }
+  #main-menu li {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  #main-menu li:last-of-type {
+    margin-bottom: 0;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  #portfolio p,
+  #portfolio2 p {
+    padding-bottom: 2rem;
+  }
+
+  #how-we-work,
+  .laptop,
+  #services {
+    padding-bottom: 3rem;
+  }
+  .text {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  #services h3 {
+    padding-top: 1rem;
+  }
+  #services .button {
+    margin-top: 1rem;
+  }
+  #portfolio h2,
+  #portfolio2 h2 {
+    text-align: center;
+  }
+  #portfolio img,
+  #portfolio2 img {
+    width: 100%;
+  }
+  .mi {
+    padding-top: 0;
+  }
+  #hero p,
+  #hero2 p {
+    padding-bottom: 1rem;
+  }
+  #hero3 p {
+    padding-bottom: 0;
+  }
+  #hero4 p {
+    padding-bottom: 2rem;
+  }
+
+  .button {
+    padding: 0.8rem 1.6rem;
+  }
+  #services p {
+    padding-bottom: 0;
+  }
+  .laptop {
+    right: 50%;
+    bottom: -3rem;
+    height: auto;
+    width: 27rem;
+    background: radial-gradient(300px, #f08f538c, transparent 50%);
+  }
+  .hullam {
+    position: absolute;
+    opacity: 15%;
+
+    width: 24rem;
+    bottom: 18rem;
+  }
+  .kor {
+    position: absolute;
+    opacity: 15%;
+    bottom: 4rem;
+    right: 3%;
+    width: 14rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .hullam-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: -1rem;
+    width: 14rem;
+  }
+  .kor-contact2 {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 5rem;
+  }
+  .hullam-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 6rem;
+    width: 15rem;
+  }
+  .kor-contact {
+    position: absolute;
+    opacity: 15%;
+    bottom: 1rem;
+    right: 3%;
+    width: 8rem;
+  }
+  .hullamweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 16rem;
+    width: 30rem;
+  }
+  .korweb {
+    position: absolute;
+    opacity: 15%;
+    bottom: 4rem;
+    right: 3%;
+    width: 12rem;
+  }
+  .kereso {
+    position: absolute;
+    bottom: 11rem;
+    right: 64%;
+    width: 3rem;
+  }
+  .kosar {
+    position: absolute;
+    bottom: 16rem;
+    right: 21%;
+    width: 3rem;
+  }
+  .hullam {
+    position: absolute;
+    opacity: 15%;
+
+    width: 24rem;
+    bottom: 22rem;
+  }
+  .kor {
+    position: absolute;
+    opacity: 15%;
+    bottom: 4rem;
+    right: 3%;
+    width: 14rem;
+  }
+
+  .laptop {
+    right: 50%;
+    height: auto;
+    bottom: -1rem;
+    width: 27rem;
+    background: radial-gradient(250px, #f08f538c, transparent 50%);
+  }
+
+  .logolatvany {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: 5rem;
+  }
+  .pizzalatvany {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: 5rem;
+  }
+  .webkep {
+    right: 50%;
+    height: auto;
+    width: 27rem;
+    margin-top: 0;
+    padding-bottom: 0;
+    bottom: 5rem;
+  }
+  .hero-text {
+    padding-bottom: 0;
+  }
+  header {
+    padding-bottom: 1rem;
+  }
+}

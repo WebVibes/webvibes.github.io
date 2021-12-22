@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <title>Webdesign</title>
+    <meta name="author" content="Your Name" />
+    <meta name="description" content="Example description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/typo.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"
+      integrity="sha256-2JRzNxMJiS0aHOJjG+liqsEOuBb6++9cY4dSOyiijX4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="./index.html"><img src="img/whitelogo.svg" alt="" /></a>
+      </div>
+      <div class="navigation">
+        <input type="checkbox" class="toggle-menu" />
+        <div class="hamburger"></div>
+        <div class="menu">
+          <div
+            class="dropdown"
+            onmouseenter="showServicesDropdownMenu()"
+            onmouseleave="hideServicesDropdownMenu()"
+            onclick="showServicesDropdownMenu()"
+          >
+            <a class="menu-item-dropdown" id="servicesMenuItem">
+              Szolgáltatásaink
+              <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-container" id="servicesMenuDropdown">
+              <a class="menu-item-dropdown" href="./arculat.html">Logó- és arculattervezés</a>
+              <a class="menu-item-dropdown" href="./design.html">Egyedi weboldal</a>
+              <a class="menu-item-dropdown" href="./webshop.html">Webshop készítés</a>
+            </div>
+          </div>
+          <a class="side-menu-item">
+            Szolgáltatásaink
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <div class="side-dropdown-container">
+            <a class="side-menu-item-dropdown" href="./arculat.html">Logó- és arculattervezés</a>
+            <a class="side-menu-item-dropdown" href="./design.html">Egyedi weboldal</a>
+            <a class="side-menu-item-dropdown" href="./webshop.html">Webshop készítés</a>
+          </div>
+          <a class="menu-item" href="./munkaink.html">Munkáink</a>
+          <a class="menu-item" href="./rolunk.html">Rólunk</a>
+          <a class="menu-item" href="./kapcsolat.html">Ajánlatkérés</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="content-box-full">
+          <div class="hero-text">
+            <h1>Legyen kreatív, működő weboldalad neked is!</h1>
+            <p>A közös munka során egyedi és célirányos megoldásokkal megmutatjuk ügyfeleidnek miért <span>Te</span> vagy a legjobb!</p>
+
+            <a class="button" href="./kapcsolat.html"> Csináljuk </a>
+          </div>
+        </div>
+        <img src="img/bannerlaptop.png" alt="" class="laptop" />
+        <img src="img/hullamok.svg" alt="" class="hullam" />
+        <img src="img/kor.svg" alt="" class="kor" />
+      </section>
+
+      <section id="services">
+        <h2>Mivel foglalkozunk?</h2>
+        <div class="content-box-wide">
+          <div class="column-3">
+            <div class="box">
+              <div><img src="img/arculattervezes.svg" alt="" /></div>
+              <div class="box-text">
+                <h3>Logó- és arculat tervezés</h3>
+                <p>
+                  A branding és a pontosan megtervezett vizuális megjelenés a siker egyik alapköve. Egy jól megtervezett arculat növeli a
+                  láthatóságot, bizalmat kelt, segíti az értékesítést.
+                </p>
+              </div>
+              <div class="box-button-container">
+                <a href="./arculat.html" class="button">Érdekel</a>
+              </div>
+            </div>
+            <div class="box">
+              <div><img src="img/webicon.svg" alt="" /></div>
+              <div class="box-text">
+                <h3>Webdesign, Sitebuilt</h3>
+                <p>
+                  A digitális arculat legfontosabb eszköze a weboldal. Segítünk, hogy kitűnj a tömegből és weboldalad egyszerre felelen meg
+                  marketing és kommunikációs céloknak is.
+                </p>
+              </div>
+              <div class="box-button-container">
+                <a href="./design.html" class="button">Érdekel</a>
+              </div>
+            </div>
+            <div class="box">
+              <div><img src="img/shop.svg" alt="" /></div>
+              <div class="box-text">
+                <h3>Webshop készítés</h3>
+                <p>
+                  A közös munka során egyedi grafikákkal, bannerekkel tesszük teljesen egyedivé a webáruházad, és használatba vétel után is
+                  rendelkezésedre állunk karbantartási, üzemeltetési és további grafikai munkára.
+                </p>
+              </div>
+              <div class="box-button-container">
+                <a href="./webshop.html" class="button">Érdekel</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <h2>Ezeket csináltuk eddig</h2>
+        <div class="content-box-wide">
+          <div class="column-4">
+            <div>
+              <img src="img/portfolio1.png" alt="" />
+              <h3>Esmeralda Organic Care</h3>
+              <p>- webdesign</p>
+            </div>
+            <div>
+              <img src="img/portfolio2.png" alt="" />
+              <h3>Pizzeria Website</h3>
+              <p>- webdesign</p>
+            </div>
+            <div>
+              <img src="img/portfolio3.png" alt="" />
+              <h3>Hotel Booking Website</h3>
+              <p>- webdesign</p>
+            </div>
+            <div>
+              <img src="img/portfolio4.png" alt="" />
+              <h3>Logó- és arculat tervek</h3>
+              <p>- webdesign</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-we-work">
+        <div class="row content-box-wide how-we-work-reverse">
+          <div class="col-1-2" style="padding: 1rem">
+            <img src="img/kapcsolat22.svg" alt="" class="mi" />
+          </div>
+          <div class="col-1-2 text" style="padding: 1rem">
+            <h2>Dolgozzunk együtt!</h2>
+
+            <ul>
+              <li>Megmutatjuk a célközönségednek, miért te vagy a legjobb!</li>
+              <li>Téged fog tükrözni a végeredmény, legyen akármilyen stílusról szó.</li>
+              <li>A jó design egyenlő a jó businessel.</li>
+              <li>Segítünk, hogy weboldalad által sikeresebb legyen a vállalkozásod!</li>
+            </ul>
+            <a class="button" href="./kapcsolat.html"> Csináljuk </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="content-box-wide">
+        <div class="footer-container">
+          <img class="footer-logo" src="img/whitelogo.svg" alt="" />
+        </div>
+        <div class="footer-container">
+          <h5>Fontos tájékoztatók</h5>
+          <a href="#">Impresszum</a>
+          <a href="#">Adatkezelési tájékoztató</a>
+        </div>
+        <div class="footer-container footer-contact">
+          <h5>Kapcsolat</h5>
+          <div class="email">
+            <div class="icon-container">
+              <i class="far fa-envelope icon"></i>
+            </div>
+            <a href="">info@webvibes.io</a>
+          </div>
+          <div class="mobile">
+            <div class="icon-container">
+              <i class="fas fa-mobile-alt icon"></i>
+            </div>
+            <a href="">0620123456789</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="copyright">
+      <p>Copyright 2021 Webdesign | Minden jog fenntartva.</p>
+    </div>
+    <script type="text/javascript" src="menu.js"></script>
+  </body>
+</html>

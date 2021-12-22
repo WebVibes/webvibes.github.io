@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <title>Webshop készítés</title>
+    <meta name="author" content="Your Name" />
+    <meta name="description" content="Example description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/typo.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="./index.html"><img src="img/whitelogo.svg" alt="" /></a>
+      </div>
+      <div class="navigation">
+        <input type="checkbox" class="toggle-menu" />
+        <div class="hamburger"></div>
+        <div class="menu">
+          <div
+            class="dropdown"
+            onmouseenter="showServicesDropdownMenu()"
+            onmouseleave="hideServicesDropdownMenu()"
+            onclick="showServicesDropdownMenu()"
+          >
+            <a class="menu-item-dropdown active-menu-item" id="servicesMenuItem">
+              Szolgáltatásaink
+              <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-container" id="servicesMenuDropdown">
+              <a class="menu-item-dropdown" href="./arculat.html">Logó- és arculattervezés</a>
+              <a class="menu-item-dropdown" href="./design.html">Egyedi weboldal</a>
+              <a class="menu-item-dropdown" href="./webshop.html">Webshop készítés</a>
+            </div>
+          </div>
+          <a class="side-menu-item active-menu-item">
+            Szolgáltatásaink
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <div class="side-dropdown-container">
+            <a class="side-menu-item-dropdown" href="./arculat.html">Logó- és arculattervezés</a>
+            <a class="side-menu-item-dropdown" href="./design.html">Egyedi weboldal</a>
+            <a class="side-menu-item-dropdown" href="./webshop.html">Webshop készítés</a>
+          </div>
+          <a class="menu-item" href="./munkaink.html">Munkáink</a>
+          <a class="menu-item" href="./rolunk.html">Rólunk</a>
+          <a class="menu-item" href="./kapcsolat.html">Ajánlatkérés</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="hero4">
+        <div class="content-box-full">
+          <div class="hero-text hero-text-design-webshop">
+            <h1>Webshop készítés</h1>
+            <p>
+              A közös munka során egyedi grafikákkal, bannerekkel tesszük teljesen egyedivé a webáruházad, és használatba vétel után is
+              rendelkezésedre állunk karbantartási, üzemeltetési és további grafikai munkára.
+            </p>
+          </div>
+        </div>
+        <img src="img/webshopkep.png" alt="" class="webkep" />
+        <img src="img/hullamok.svg" alt="" class="hullamweb" />
+        <img src="img/kor.svg" alt="" class="korweb" />
+      </section>
+
+      <section id="services">
+        <h2>Mik a lépések?</h2>
+        <div class="content-box-wide">
+          <div class="column-3">
+            <div class="box">
+              <div><img src="img/meeteng.svg" alt="" /></div>
+              <div class="box-text">
+                <h3>Igény felmérés</h3>
+                <p>
+                  Online meeting során felmérjük a vállalkozásod múltját, jelenét és vízióját, felderítjük az értékeidet, célközönségedet,
+                  versenytársaidat. Ez lesz a tervezési folyamat alapja.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div><img src="img/tervezes.svg" alt="" /></div>
+              <div class="box-text">
+                <h3>Tervek elkészítése</h3>
+                <p>
+                  látványtervek segítségével bemutatjuk a fő grafikai irányt, amit igényeid szerint módosítunk, hogy a végeredménnyel
+                  teljesen azonosulni tudj.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div><img src="img/kivitelezes.svg" alt="" /></div>
+              <div class="box-text">
+                <h3>Megvalósítás</h3>
+                <p>Az átbeszélt módosítások után kidolgozzuk a végleges terveket, amik alapján fejlesztünk, majd tesztelünk.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-we-work2">
+        <div class="content-box-wide row how-we-work-reverse">
+          <div class="col-1-2">
+            <img src="img/shopillusztracio2.svg" alt="" class="logoarculat" />
+          </div>
+          <div class="col-1-2 text">
+            <h2>Mi a te feladatod?</h2>
+            <p>Információt szolgáltatni, egyeztetni, jóváhagyni.</p>
+            <h2>A weboldal ára</h2>
+            <h3>120 000 Ft-tól</h3>
+            <p>
+              A projekt teljes díjának 30%-át a tervek elkészítése előtt kiszámlázzuk. A fennmaradó 70%-ot az átadást megelőzően kell majd
+              kifizetned.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-we-work">
+        <div class="content-box-wide row">
+          <div class="col-1-2">
+            <h2>Mit nyújtunk neked?</h2>
+
+            <ul>
+              <li>Google Analytics és Cookiebot bekötése</li>
+              <li>Tanácsadás</li>
+              <li>Személyre szabott funkciók beállítása</li>
+              <li>SSL Tanusítvány</li>
+              <li>Social Media integráció</li>
+              <li>Gyors és reszponzív megjelenés</li>
+              <li>Szállítási és fizetési módok beállítása</li>
+              <li>Alap biztonsági funkciók beállítása</li>
+              <li>Számlázó programmal összekötés</li>
+              <li>Kuponok, akciók, e-mailek beállítása</li>
+              <li>Igény esetén a tartalom rendszeres karbantartása, frissítése, termékfeltöltés</li>
+              <li>Átadás után 4 hetes támogatás</li>
+              <li>Domain és tárhely beállítása</li>
+            </ul>
+          </div>
+          <div class="col-1-2">
+            <img src="img/offer.svg" alt="" class="offershop" />
+          </div>
+        </div>
+      </section>
+
+      <section id="how-we-work">
+        <div class="row content-box-wide">
+          <div class="col-1-2">
+            <img src="img/kapcsolat22.svg" alt="" id="kapcsolat" />
+          </div>
+          <div class="col-1-2 text">
+            <div class="contact-box">
+              <h2>Készen állsz a közös munkára?</h2>
+              <p>Írj nekünk az alábbi adatok kitöltésével és hamarosan felvesszük veled a kapcsolatot.</p>
+              <input type="text" class="field" placeholder="Név" />
+              <input type="email" class="field" placeholder="E-mail" />
+              <input type="text" class="field" placeholder="Miben segíthetünk?" />
+              <textarea class="field area" placeholder="Üzenet "></textarea>
+              <div class="input_field terms">
+                <label class="check">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+                <div>
+                  <p>Elfogadom az Adatkezelési Tájékoztatóban foglaltakat.</p>
+                </div>
+              </div>
+
+              <div><a class="button" href="/"> Küldés </a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="content-box-wide">
+        <div class="footer-container">
+          <img class="footer-logo" src="img/whitelogo.svg" alt="" />
+        </div>
+        <div class="footer-container">
+          <h5>Fontos tájékoztatók</h5>
+          <a href="#">Impresszum</a>
+          <a href="#">Adatkezelési tájékoztató</a>
+        </div>
+        <div class="footer-container footer-contact">
+          <h5>Kapcsolat</h5>
+          <div class="email">
+            <div class="icon-container">
+              <i class="far fa-envelope icon"></i>
+            </div>
+            <a href="">info@webvibes.io</a>
+          </div>
+          <div class="mobile">
+            <div class="icon-container">
+              <i class="fas fa-mobile-alt icon"></i>
+            </div>
+            <a href="">0620123456789</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="copyright">
+      <p>Copyright 2021 Webdesign | Minden jog fenntartva.</p>
+    </div>
+    <script type="text/javascript" src="menu.js"></script>
+  </body>
+</html>

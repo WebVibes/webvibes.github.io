@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rólunk</title>
+    <meta name="author" content="Your Name" />
+    <meta name="description" content="Example description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/typo.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <a href="./index.html"><img src="img/whitelogo.svg" alt="" /></a>
+      </div>
+      <div class="navigation">
+        <input type="checkbox" class="toggle-menu" />
+        <div class="hamburger"></div>
+        <div class="menu">
+          <div
+            class="dropdown"
+            onmouseenter="showServicesDropdownMenu()"
+            onmouseleave="hideServicesDropdownMenu()"
+            onclick="showServicesDropdownMenu()"
+          >
+            <a class="menu-item-dropdown" id="servicesMenuItem">
+              Szolgáltatásaink
+              <i class="fa fa-caret-down"></i>
+            </a>
+            <div class="dropdown-container" id="servicesMenuDropdown">
+              <a class="menu-item-dropdown" href="./arculat.html">Logó- és arculattervezés</a>
+              <a class="menu-item-dropdown" href="./design.html">Egyedi weboldal</a>
+              <a class="menu-item-dropdown" href="./webshop.html">Webshop készítés</a>
+            </div>
+          </div>
+          <a class="side-menu-item">
+            Szolgáltatásaink
+            <i class="fa fa-caret-down"></i>
+          </a>
+          <div class="side-dropdown-container">
+            <a class="side-menu-item-dropdown" href="./arculat.html">Logó- és arculattervezés</a>
+            <a class="side-menu-item-dropdown" href="./design.html">Egyedi weboldal</a>
+            <a class="side-menu-item-dropdown" href="./webshop.html">Webshop készítés</a>
+          </div>
+          <a class="menu-item" href="./munkaink.html">Munkáink</a>
+          <a class="menu-item active-menu-item" href="./rolunk.html">Rólunk</a>
+          <a class="menu-item" href="./kapcsolat.html">Ajánlatkérés</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="hero-contact">
+        <div class="content-box-full">
+          <div class="hero-text">
+            <h2>Ismerj meg minket!</h2>
+          </div>
+        </div>
+        <img src="img/hullamok.svg" alt="" class="hullam-contact2" />
+        <img src="img/kor.svg" alt="" class="kor-contact2" />
+      </section>
+
+      <section id="about">
+        <div class="content-box-wide row">
+          <div class="col-1-2">
+            <h2>Bemutatkozunk</h2>
+            <p>
+              A hatékonyság érdekében, KOMPLEX és KREATÍV kampányokban gondolkodunk! Weboldalaink készítése során folyamatosan konzultálunk
+              ügyfeleinkkel, hogy a végeredmény valóban a megrendelő elvárásait tükrözze, funkciókban, szövegezésben és dizájnban egyaránt.
+              Célunk, hogy szakértelmünkkel segítsünk vállalkozóknak, cégeknek, egyesületeknek és magánszemélyeknek megteremteni személyre
+              szabott online jelenlétüket. <br />Weboldalaink készítése során folyamatosan konzultálunk ügyfeleinkkel, hogy a végeredmény
+              valóban a megrendelő elvárásait tükrözze, funkciókban, szövegezésben és dizájnban egyaránt.
+            </p>
+          </div>
+          <div class="col-1-2">
+            <img src="img/about2.png" alt="" class="about" />
+          </div>
+        </div>
+      </section>
+
+      <section id="how-we-work">
+        <div class="row content-box-wide how-we-work-reverse">
+          <div class="col-1-2">
+            <img src="img/contactimg.png" alt="" id="kapcsolat" />
+          </div>
+          <div class="col-1-2 text">
+            <h2>Dolgozzunk együtt!</h2>
+
+            <ul>
+              <li>Megmutatjuk a célközönségednek, miért te vagy a legjobb!</li>
+              <li>Téged fog tükrözni a végeredmény, legyen akármilyen stílusról szó.</li>
+              <li>A jó design egyenlő a jó businessel.</li>
+              <li>Segítünk, hogy weboldalad által sikeresebb legyen a vállalkozásod!</li>
+            </ul>
+            <a class="button" href="./kapcsolat.html"> Csináljuk </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-we-work">
+        <div class="row content-box-wide how-we-work-reverse">
+          <div class="col-1-2 text">
+            <div class="contact-box">
+              <h2>Lépj kapcsolatba velünk!</h2>
+              <p>Röviden írd le az elképzelésed és hamarosan felvesszük veled a kapcsolatot!</p>
+              <input type="text" class="field" placeholder="Név" />
+              <input type="email" class="field" placeholder="E-mail" />
+              <input type="text" class="field" placeholder="Miben segíthetünk?" />
+              <textarea class="field area" placeholder="Üzenet "></textarea>
+              <div class="input_field terms">
+                <label class="check">
+                  <input type="checkbox" />
+                  <span class="checkmark"></span>
+                </label>
+                <div>
+                  <p>Elfogadom az Adatkezelési Tájékoztatóban foglaltakat.</p>
+                </div>
+              </div>
+
+              <div><a class="button" href="/"> Küldés </a></div>
+            </div>
+          </div>
+          <div class="col-1-2">
+            <img src="img/kapcsolat22.svg" alt="" id="kapcsolat" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="content-box-wide">
+        <div class="footer-container">
+          <img class="footer-logo" src="img/whitelogo.svg" alt="" />
+        </div>
+        <div class="footer-container">
+          <h5>Fontos tájékoztatók</h5>
+          <a href="#">Impresszum</a>
+          <a href="#">Adatkezelési tájékoztató</a>
+        </div>
+        <div class="footer-container footer-contact">
+          <h5>Kapcsolat</h5>
+          <div class="email">
+            <div class="icon-container">
+              <i class="far fa-envelope icon"></i>
+            </div>
+            <a href="">info@webvibes.io</a>
+          </div>
+          <div class="mobile">
+            <div class="icon-container">
+              <i class="fas fa-mobile-alt icon"></i>
+            </div>
+            <a href="">0620123456789</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div id="copyright">
+      <p>Copyright 2021 Webdesign | Minden jog fenntartva.</p>
+    </div>
+
+    <script type="text/javascript" src="menu.js"></script>
+  </body>
+</html>
